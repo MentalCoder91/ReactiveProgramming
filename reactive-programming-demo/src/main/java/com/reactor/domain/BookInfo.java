@@ -55,6 +55,13 @@ public class BookInfo {
 	public void setISBN(String iSBN) {
 		ISBN = iSBN;
 	}
+
+	@Override
+	public String toString() {
+		return "BookInfo [bookId=" + bookId + ", title=" + title + ", author=" + author + ", ISBN=" + ISBN + "]";
+	}
+	
+	
 	
 	
 	
